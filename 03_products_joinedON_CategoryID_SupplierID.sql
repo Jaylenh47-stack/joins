@@ -1,7 +1,11 @@
 USE northwind;
 
 SELECT
-ProductID, ProductName, UnitPrice, CategoryName, CompanyName
+ProductID,
+ ProductName, 
+ UnitPrice,
+ CategoryName,
+ CompanyName as SupplierName
 
 FROM products
 
